@@ -1,0 +1,83 @@
+{
+  "challenges": [
+    {
+      "id": 1,
+      "name": "Over nine thousand!",
+      "points": 9001,
+      "userId": 1,
+      "isDraft": false,
+      "releaseDate": "2019-06-01",
+      "startDate": "2019-06-10",
+      "endDate": "2019-12-01",
+      "lastUpdateDate": "2019-12-14",
+      "scores": [
+        {
+          "userId": 1,
+          "points": 24
+        },
+        {
+          "userId": 2,
+          "points": 10
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "challengeId": 1,
+      "name": "Streching - venyttely, 5 minutes",
+      "points": 10
+    },
+    {
+      "id": 2,
+      "challengeId": 1,
+      "name": "Box jumping / boxihyppy, jump (up+down)",
+      "points": 5
+    },
+    {
+      "id": 3,
+      "challengeId": 1,
+      "name": "Walking to/from work - työmatkakävely /km",
+      "points": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Seppo Sohvaperuna",
+      "email": "seppo.sohvaperuna@utu.fi",
+      "password": "salasana",
+      "allowEmails": true,
+      "series": "beginners"
+    },
+    {
+      "id": 2,
+      "name": "Kirsi Kuntoilija",
+      "email": "kirsi.kuntoilija@utu.fi",
+      "password": "salasana",
+      "allowEmails": true,
+      "series": "professionals"
+    }
+  ],
+  "performances": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "2019-08-10",
+      "challengeId": 1,
+      "activityId": 3,
+      "amount": 10,
+      "bonus": 1.2
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "date": "2019-08-15",
+      "challengeId": 1,
+      "activityId": 1,
+      "amount": 1,
+      "bonus": 1.0
+    }
+  ]
+}

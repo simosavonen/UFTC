@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Context as ChallengeContext } from "../context/ChallengeContext";
 
 const ChallengeList = () => {
-  const { state, dispatch } = useContext(ChallengeContext);
+  const { state, /* dispatch */ } = useContext(ChallengeContext);
 
   return (
     <div>
